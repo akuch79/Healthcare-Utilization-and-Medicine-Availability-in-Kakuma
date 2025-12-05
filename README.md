@@ -15,18 +15,17 @@ Low healthcare utilization: Despite available services, many refugees do not acc
 Medicine stockouts and shortages: There is always a shortage or unavailability of essential medicines, which delays treatment and minimizes patient satisfaction.
 
 Inefficient data tracking: Medicine and commodity stock at health facilities, patient visits, and service demands are not tracked centrically.
-
 Insufficient use or unequal distribution of health resources due to lack of evidence-based practices.
 
 3. Business Objectives
 
 Improve utilization of healthcare: Increase the number of refugees availing themselves of available healthcare.
-
 Medicine availability assured: reduce stockouts by improving supply chain management.
-
 Improve data-informed decision-making through the implementation of patient visit, inventory, and health trends.
-
 Optimized resource allocation: Allow for efficient deployment and utilization of staff and medical resources based on demand.
+
+
+
 
 4. Business Understanding
 
@@ -64,6 +63,8 @@ Types of medicine, quantity, stockout dates
 
 Health facility capacity - staff numbers, service availability
 
+
+
 System Requirements:
 
 Centralized database for healthcare and medical data.
@@ -92,6 +93,13 @@ Python/R: The programming languages used for cleaning, analyzing, and predicting
 
 SQL/Excel: to store and report structured data in a tabular form.
 
+
+
+
+
+
+
+
 Data Source:
 
 UNHCR Health Information System for Kakuma Refugee Camp is the main source of the historical data for patients and medicines.
@@ -106,4 +114,9 @@ Use predictive analytics, forecast medicine demand and health service needs.
 
 Improved data collection: Standardization of forms and electronic reporting in facilities.
 
-The stakeholders, particularly NGOs and UNHCR, could do more in pooling to enhance resource allocation. 9. Conclusion Such data-driven approaches will have huge benefits in Kakuma Refugee Camp by improving healthcare utilization and medicine availability. Analytics dashboards, predictive modeling, and efficient reporting integrated together give insights to healthcare providers to make informed decisions and prevent stockouts so that refugees can receive timely care. With proper implementation, these solutions will bolster the overall health system, enhance patient satisfaction, and create measurable positive impact within the community.
+The stakeholders, particularly NGOs and UNHCR, could do more in pooling to enhance resource allocation. 
+
+9. Conclusion
+Such data-driven approaches will have huge benefits in Kakuma Refugee Camp by improving healthcare utilization and medicine availability. Analytics dashboards, predictive modeling, and efficient reporting integrated together give insights to healthcare providers to make informed decisions and prevent stockouts so that refugees can receive timely care. With proper implementation, these solutions will bolster the overall health system, enhance patient satisfaction, and create measurable positive impact within the community.
+
+
