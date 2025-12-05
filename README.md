@@ -1,144 +1,109 @@
-**Healthcare Utilization and Medicine Availability in Kakuma Refugee Camp**
+Healthcare use and availability of drugs in Kakuma Refugee Camp
 
----
+Prepared by: Maggy Akuch Deng
 
-### **Project Proposal**
-
-**Prepared by:** Margaret Akuch Deng
-
-**Date:** December 2025
-
----
-
-### **Table of Contents**
+Date: 05 December 2025
 
 1. Introduction
-2. Problem Statement
-3. Project Objectives
-4. Background and Rationale
-5. Data Sources and Dataset Origins
-6. Methodology
-7. Expected Outcomes
-8. Risk Management
-9. Recommendations
-10. Conclusion
-11. Questions for Consideration
 
----
+Kakuma Refugee Camp, one of the largest refugee settlements in East Africa, hosts diverse populations displaced by conflict, famine, and instability. While humanitarian agencies provide essential healthcare services, persistent challenges remain in healthcare utilization and medicine availability. Leveraging data analytics can help identify gaps, optimize resource allocation, and improve health outcomes for refugees.
 
-### 1. Introduction
+2. Business Problems
 
-Kakuma Refugee Camp, one of the largest refugee settlements in East Africa, hosts diverse populations displaced by conflict, famine, and instability. While humanitarian agencies provide essential healthcare services, persistent challenges remain in healthcare utilization and medicine availability. This project uses data analytics to analyze health service usage, medicine stock levels, and system gaps, providing actionable insights for improved decision-making.
+Low healthcare utilization: Despite available services, many refugees do not access healthcare due to a lack of awareness, long waiting times, or transportation barriers.
 
-### 2. Problem Statement
+Medicine stockouts and shortages: There is always a shortage or unavailability of essential medicines, which delays treatment and minimizes patient satisfaction.
 
-**2.1 Key Problems**
+Inefficient data tracking: Medicine and commodity stock at health facilities, patient visits, and service demands are not tracked centrically.
 
-* Overcrowded health facilities and long waiting times
-* Frequent stockouts of essential medicines
-* Delayed and inconsistent manual reporting
-* Poor supply chain visibility
-* Limited use of data for planning and decision-making
+Insufficient use or unequal distribution of health resources due to lack of evidence-based practices.
 
-### 3. Project Objectives
+3. Business Objectives
 
-* Assess healthcare utilization across facilities
-* Analyze medicine stock levels and stockout trends
-* Build predictive models for future medicine needs
-* Develop an interactive Power BI dashboard
-* Provide data-driven recommendations for health partners
+Improve utilization of healthcare: Increase the number of refugees availing themselves of available healthcare.
 
-### 4. Background and Rationale
+Medicine availability assured: reduce stockouts by improving supply chain management.
 
-Refugee settings depend heavily on data to plan interventions, yet Kakuma still faces data fragmentation, manual reporting errors, and limited analytical capacity. A well-structured data analytics system can provide accurate, timely insights to improve health outcomes.
+Improve data-informed decision-making through the implementation of patient visit, inventory, and health trends.
 
-### 5. Data Sources and Dataset Origins
+Optimized resource allocation: Allow for efficient deployment and utilization of staff and medical resources based on demand.
 
-This project uses authentic, publicly available, or partner-shared datasets commonly used in refugee health analytics. These datasets were obtained from trusted humanitarian and open-data platforms.
+4. Business Understanding
 
-**5.1 UNHCR Health Information System (HIS) Reports**
+An understanding of the healthcare ecosystem in Kakuma could be better framed:
 
-* Monthly health utilization statistics
-* Disease surveillance reports
-* Health facility workload summaries
-  *Source:* UNHCR Kenya Operational Data Portal (ODP)
+Health care providers: NGOs, UNHCR, and local health facilities.
 
-**5.2 UNHCR Supply Chain and Pharmaceuticals Data**
+Population served: refugees of all ages with differing medical needs.
 
-* Essential medicine lists
-* Facility stock levels
-* Stockout and consumption trends
-  *Source:* UNHCR Logistics and Supply Chain Units
+Current challenges include scarce resources, inconsistent data reporting, logistic constraints, and barriers to access.
 
-**5.3 NGO and Partner Facility Data (Where Allowed)**
+Key Stakeholders: UNHCR, NGOs, Healthcare Workers, Refugees, and Supply Chain Managers
 
-* Organizations: IRC, Kenya Red Cross Society, AIC Health Ministries
-* Open-access annual health reports and performance reviews
+5. Criterions of Solution
 
-**5.4 Open-Source Datasets for Modeling and Simulation**
+A successful solution should:
 
-* Kaggle Healthcare Utilization Datasets
+Provide real-time data on medicine inventory and current stock levels.
 
-### 6. Methodology
+Track patient visits, healthcare utilization trends, and service gaps.
 
-**6.1 Data Collection**
+Offer predictive insights for resource allocation and supply management.
 
-* Datasets imported from Excel, CSV, DHIS2 exports
-* PDF reports converted to structured tables
-* Partner health facility logs
+Be user-friendly for health personnel without advanced technical knowledge.
 
-**6.2 Data Cleaning**
+Ensure data security and privacy compliance.
 
-* Handling missing values
-* Normalizing medicine categories
-* Standardizing dates
-* Removing duplicates
+6. Requirements
 
-**6.3 Data Analysis Techniques**
+Data Requirements:
 
-* Descriptive, diagnostic, predictive, and prescriptive analytics
-* Trend analysis
-* Medicine stock forecasting
-* Patient load analysis
+Patient visit records: dates, services, demographics
 
-**6.4 Tools Used**
+Types of medicine, quantity, stockout dates
 
-* Power BI, Excel, Python (Pandas), SQL, Power Query
+Health facility capacity - staff numbers, service availability
 
-### 7. Expected Outcomes
+System Requirements:
 
-* Improved visibility into facility workload
-* Better forecasting of medicine needs
-* Reduced stockout frequency
-* Real-time dashboard monitoring
-* Enhanced decision-making for humanitarian agencies
+Centralized database for healthcare and medical data.
 
-### 8. Risk Management
+Analytical tools (Power BI, Tableau, or Python-based dashboards).
 
-* Data validation processes
-* Staff training on analytics
-* Stakeholder engagement
-* Strong data security practices
+Reporting functionality to stakeholders.
 
-### 9. Recommendations
+Low inventory level alerts and unusual trend alerts on healthcare utilization.
 
-* Digitize HMIS reporting
-* Introduce automated stock tracking
-* Train staff in data analytics
-* Integrate partners into a unified data system
-* Adopt predictive analytics for supply planning
+7. Proposed Solutions
 
-### 10. Conclusion
+Data Analytics Dashboard: Implement a Power BI or Tableau dashboard to represent health utilization and medicine availability.
 
-This project introduces a powerful, data-driven approach for addressing healthcare utilization and medicine availability challenges in Kakuma Refugee Camp. Through comprehensive analytics, forecasting models, and a Power BI dashboard, the project enhances capacity for evidence-based planning—improving the health and well-being of refugee populations.
+Inventory Management System: real-time inventory tracking of medicines, alerts of low supplies.
 
-### 11. Questions for Consideration
+Predictive Modeling: Projection of medicine demand and inflow of patients by using historical trends.
 
-**Discussion Questions**
+Reporting & Insights: Automated reports for NGOs and UNHCR to assist in timely decision-making.
 
-1. What are the primary challenges affecting healthcare utilization in Kakuma Refugee Camp?
-2. How do frequent stockouts of essential medicines impact patient outcomes?
-3. In what ways can data analytics improve decision-making for health partners in refugee settings?
-4. How can predictive models help in anticipating future medicine needs?
-5. What strategies could improve coordination among multiple humanitarian agencies in Kakuma?
+Recommended Tools:
 
+Power BI / Tableau: For visualization and dashboards.
+
+Python/R: The programming languages used for cleaning, analyzing, and predicting using models.
+
+SQL/Excel: to store and report structured data in a tabular form.
+
+Data Source:
+
+UNHCR Health Information System for Kakuma Refugee Camp is the main source of the historical data for patients and medicines.
+
+8. Recommendations
+
+Centralized Dashboard: Implement a centralized dashboard for real-time tracking of medicine stock and patient visits.
+
+Train healthcare staff: Facilitate the use of dashboards by all staff and enable them to report anomalies.
+
+Use predictive analytics, forecast medicine demand and health service needs.
+
+Improved data collection: Standardization of forms and electronic reporting in facilities.
+
+The stakeholders, particularly NGOs and UNHCR, could do more in pooling to enhance resource allocation. 9. Conclusion Such data-driven approaches will have huge benefits in Kakuma Refugee Camp by improving healthcare utilization and medicine availability. Analytics dashboards, predictive modeling, and efficient reporting integrated together give insights to healthcare providers to make informed decisions and prevent stockouts so that refugees can receive timely care. With proper implementation, these solutions will bolster the overall health system, enhance patient satisfaction, and create measurable positive impact within the community.
